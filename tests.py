@@ -43,10 +43,9 @@ class Test_Assignment_01(unittest.TestCase):
         """
         A test that will "no longer" fail. The only way this will not 
         fail is by changing the word in the brackets to False.  We 
-        are adding what will fail. I added a message since you notated 
-        in the test title with a message
+        are adding what will fail. 
         """
-        self.assertFalse(False, "This is not true")
+        self.assertFalse(False, 'This should fail, please fix it.')
 
     def test_assert_equality(self):
         """
